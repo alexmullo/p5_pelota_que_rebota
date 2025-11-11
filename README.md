@@ -1,1 +1,1 @@
-# p5_pelota_que_rebota
+Proyecto 1 Sistema de pelotas

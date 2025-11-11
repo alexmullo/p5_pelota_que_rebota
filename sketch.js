@@ -1,5 +1,10 @@
-const NP = 500;
+const NP = 100;
 let pelotas = [];
+let img;
+
+function preload() {
+  img = loadImage('ICONO_BLANCO.png');
+}
 
 
 function setup(){
@@ -14,9 +19,9 @@ function setup(){
 }
 
 function draw(){
-	background(150);
+	background(15, 30, 60);
 
-	for(let i = 0; i < NP; i++){
+	for(let i = 0; i < pelotas.length; i++){
 		pelotas[i].actualizar();
 		pelotas[i].visualizar();
 	}
